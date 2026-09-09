@@ -1,22 +1,20 @@
-# 3d-genome-ai — 三维基因组/染色质组织 × AI/分子模拟
+# 🔍 3D-Genome-AI —— 三维基因组/染色质组织 × AI/分子模拟
 
-追踪 **3D 基因组 / 染色质组织**方向的计算方法文献：染色质高级结构与组织方式的预测、建模与机理，方法限定为深度学习等 AI、结构方法（AlphaFold / ESMFold / Rosetta）与分子动力学/模拟/对接。
+追踪 **3D 基因组 / 染色质组织**方向的计算方法文献：染色质高级结构与组织方式的预测、建模与机理，方法限定为深度学习，与分子动力学/模拟/对接。
 
 对象含两组词：
 
 - **3D 基因组/染色质组织** — Hi-C / HiChIP / chromosome conformation capture、3D genome、genome organization/architecture/folding、TAD、chromatin loop / interaction / domain / structure、A/B compartment、loop extrusion、CTCF、cohesin、nuclear organization/architecture 等；
 - **调控基因组特征（染色质水平）** — cis-regulatory (element)、regulatory element、regulatory genomics、chromatin accessibility、enhancer-promoter / promoter-enhancer 等。
 
-**不收** TF–DNA 结合类短语（transcription factor binding / TFBS / DNA binding / protein-DNA binding 等）——那是蛋白质-结合方向的 `tf-dna-ai` 的范围，此处不越界。
-
 每周从 PubMed / arXiv / bioRxiv / medRxiv / chemRxiv 抓取最新元数据并提交回本仓库，同时开一条 Issue 汇总；本地用 Zotero 按 `_ids.txt` 批量导入人工筛选。
 
 ## 平台与量级
 
-- **PubMed** — 主工作腿（TIAB + MeSH）。
-- **bioRxiv** — 预印本主力（三维基因组预印本大多在此）。
-- **arXiv** — 精确短语精查腿：周命中通常 0–5，无噪声；空属正常。
-- **medRxiv / chemRxiv** — 本方向稀疏，常空，空属正常。
+- **PubMed** — 主力（TIAB + MeSH）
+- **bioRxiv** — 预印本主力
+- **arXiv** — 偏计算view
+- **medRxiv / chemRxiv** — 偏生化view
 
 ## 仓库结构
 
