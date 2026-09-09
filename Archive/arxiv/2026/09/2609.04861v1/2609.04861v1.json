@@ -1,0 +1,35 @@
+{
+  "source": "arxiv",
+  "source_id": "2609.04861v1",
+  "title": "When Genomic Masking Priors Fail to Transfer: Strong Variant Prediction, Weak Functional Generation",
+  "doi": "",
+  "abstract": "Bidirectional discrete diffusion model appears naturally suited to genomic modeling because it can reconstruct missing sequence from both flanks. We developed GenDA (Genomic Density-optimized Absorbing Diffusion) under the additional hypothesis that entropy-guided span placement would concentrate reconstruction pressure on compositionally complex regions, improving both downstream variant-effect prediction and functional sequence generation. Our results only partially support this premise. After supervised fine-tuning, the 202M-parameter GenDA model reaches a pooled ClinVar SNV AUROC of 0.774, exceeding a similarly scaled autoregressive model by 0.103. However, a matched random-span variant reaches 0.777, providing no evidence that entropy guidance causes the ClinVar improvement. More unexpectedly, GenDA fails a zero-shot functional inpainting stress test: across promoters, enhancers, exon boundaries, and intron boundaries, it does not consistently outperform a control that shuffles the native gap while exactly preserving 3-mer composition. Failure is already present for 50--500-bp gaps, although enhancer degradation worsens at longer gaps. Diagnostics identify several boundary conditions: entropy measures local sequence complexity rather than functional importance; 1-mer tokenization limits physical context; training spans are capped at 300 bp; and high absolute AlphaGenome fidelity can coexist with negative control-normalized restoration. These results show that strong fine-tuned variant prediction, a plausible corruption prior, and functional generation are distinct claims that require separate validation.",
+  "authors": [
+    "Susu Hu",
+    "Preetam Gattogi",
+    "Jens Lehmann",
+    "Sahar Vahdati",
+    "Stefanie Speidel",
+    "Julien Vibert"
+  ],
+  "published_date": "2026-09-04T08:21:34Z",
+  "updated_date": "2026-09-04T08:21:34Z",
+  "journal": "",
+  "category": "cs.LG",
+  "landing_url": "https://arxiv.org/abs/2609.04861v1",
+  "pdf_url": "https://arxiv.org/pdf/2609.04861v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"3D genome\" OR all:\"three-dimensional genome\" OR all:\"genome organization\" OR all:\"genome architecture\" OR all:\"genome folding\" OR all:\"nuclear organization\" OR all:\"nuclear architecture\" OR all:\"chromatin organization\" OR all:\"chromatin architecture\" OR all:\"chromatin conformation\" OR all:\"chromatin topology\" OR all:\"chromatin structure\" OR all:\"chromatin loop\" OR all:\"chromatin interaction\" OR all:\"chromatin domain\" OR all:\"topologically associating domain\" OR all:\"A/B compartment\" OR all:\"chromosome conformation capture\" OR all:\"Hi-C\" OR all:HiChIP OR all:\"loop extrusion\" OR all:\"loop-extrusion\" OR all:CTCF OR all:cohesin OR all:\"cis-regulatory\" OR all:\"cis-regulatory element\" OR all:\"regulatory element\" OR all:\"regulatory genomics\" OR all:\"chromatin accessibility\" OR all:\"enhancer-promoter\" OR all:\"promoter-enhancer\") AND (all:\"deep learning\" OR all:\"machine learning\" OR all:\"neural network\" OR all:\"graph neural network\" OR all:\"convolutional neural network\" OR all:transformer OR all:\"language model\" OR all:\"foundation model\" OR all:\"diffusion model\" OR all:generative OR all:\"flow matching\" OR all:alphafold OR all:esmfold OR all:rosetta OR all:\"molecular dynamics\" OR all:simulation OR all:docking)\n",
+  "version": "1",
+  "keywords": [
+    "cs.LG"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2609.04861v1",
+    "raw_categories": [
+      "cs.LG"
+    ],
+    "journal_ref": ""
+  }
+}
