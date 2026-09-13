@@ -1,0 +1,423 @@
+{
+  "identity": {
+    "pmid": "42724581",
+    "doi": "10.3389/fonc.2026.1919279",
+    "title": "Epigenetic profiling of circulating cell-free DNA for early detection and minimal residual disease assessment in lung cancer: a focus on DNA methylation."
+  },
+  "content": {
+    "abstract": "Lung Cancer (LC) continues to be the biggest cause of cancer-related deaths around the world, mostly because of delayed diagnosis. Even if tissue biopsies and circulating tumor DNA (ctDNA) tests have revolutionized clinical management of LC patients, their effectiveness is restricted in settings with lower tumor burden, molecular heterogeneity, and bias in sampling approaches. In this scenario, the epigenetic profiling of cell-free DNA (cfDNA) stands out as a promising, less invasive approach, accurately detect cancer traces. Evidence from stage I-II disease and CT-detected pulmonary nodules supports the diagnostic potential of cfDNA methylation, although further validation in prospective screening cohorts remains necessary. Beyond genomic alterations, cfDNA epigenetic changes, including DNA methylation, chromatin organization, nucleosome positioning, and fragmentation patterns, reflect multi-dimensional complexity of tumor biology. These properties convey both the functional status and the origin of the circulating DNA fragments, accelerating for tumor integrating genomic analysis. Within this group, DNA methylation is the biologically robust and clinically well-established epigenetic marker, as alterations in methylation linked to cancer often occur in the early stages of tumorigenesis and are commonly found across different cancer cell types. Here, we explored the biological and clinical relevance of the epigenetic landscape of cfDNA in LC patients, particularly focusing on DNA methylation-based biomarkers and their evolving applications towards early diagnosis and post-surgical monitoring of minimal residual disease (MRD). We aimed to comprehensively overview analytical approaches for cfDNA methylation analysis, including targeted and genome-wide profiling strategies, and discuss their integration with machine learning (ML) and multi-omics frameworks in order to improve diagnostic performance and clinical applicability in LC management.",
+    "keywords": [
+      "DNA methylation",
+      "cell-free DNA",
+      "early detection",
+      "epigenetics",
+      "liquid biopsy",
+      "lung cancer",
+      "machine learning",
+      "minimal residual disease"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bazan Russo, Tancredi Didier",
+        "Gristina, Valerio",
+        "Delcuratolo, Marco Donatello",
+        "Tamburi, Leonardo",
+        "Delli Muti, Francesco",
+        "Mangiacotti, Filomena",
+        "Mujacic, Clarissa",
+        "Fanale, Daniele",
+        "Galvano, Antonio",
+        "Gori, Stefania",
+        "Incorvaia, Lorena",
+        "Giordano, Antonio",
+        "Pepe, Francesco",
+        "Malapelle, Umberto",
+        "Russo, Antonio",
+        "Muscarella, Lucia Anna",
+        "Fabrizio, Federico Pio"
+      ],
+      "short_names": [
+        "Bazan Russo TD",
+        "Gristina V",
+        "Delcuratolo MD",
+        "Tamburi L",
+        "Delli Muti F",
+        "Mangiacotti F",
+        "Mujacic C",
+        "Fanale D",
+        "Galvano A",
+        "Gori S",
+        "Incorvaia L",
+        "Giordano A",
+        "Pepe F",
+        "Malapelle U",
+        "Russo A",
+        "Muscarella LA",
+        "Fabrizio FP"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Precision Medicine in Medical, Surgical and Critical Care (Me.Pre.C.C.), Section of Medical Oncology, University of Palermo, Palermo, Italy.",
+        "Division of Medical Oncology, Department of Internal Medicine, The Ohio State University Comprehensive Cancer Center - Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, Columbus, OH, United States.",
+        "Department of Precision Medicine in Medical, Surgical and Critical Care (Me.Pre.C.C.), Section of Medical Oncology, University of Palermo, Palermo, Italy.",
+        "Medical Oncology Unit, Fondazione Istituto di Ricovero e Cura a Carattere Scientifico (IRCCS) Casa Sollievo della Sofferenza, San Giovanni Rotondo, FG, Italy.",
+        "Catholic University of the Sacred Heart, Rome, Italy.",
+        "Lung Cancer Research Unit, Fondazione Istituto di Ricovero e Cura a Carattere Scientifico (IRCCS) Casa Sollievo della Sofferenza, San Giovanni Rotondo, FG, Italy.",
+        "Lung Cancer Research Unit, Fondazione Istituto di Ricovero e Cura a Carattere Scientifico (IRCCS) Casa Sollievo della Sofferenza, San Giovanni Rotondo, FG, Italy.",
+        "Department of Precision Medicine in Medical, Surgical and Critical Care (Me.Pre.C.C.), Section of Medical Oncology, University of Palermo, Palermo, Italy.",
+        "Department of Precision Medicine in Medical, Surgical and Critical Care (Me.Pre.C.C.), Section of Medical Oncology, University of Palermo, Palermo, Italy.",
+        "Department of Precision Medicine in Medical, Surgical and Critical Care (Me.Pre.C.C.), Section of Medical Oncology, University of Palermo, Palermo, Italy.",
+        "Medical Oncology Unit, Istituto di Ricovero e Cura a Carattere Scientifico (IRCCS) Sacro Cuore Don Calabria Hospital, Negrar di Valpolicella, Verona, Italy.",
+        "Department of Precision Medicine in Medical, Surgical and Critical Care (Me.Pre.C.C.), Section of Medical Oncology, University of Palermo, Palermo, Italy.",
+        "Sbarro Institute for Cancer Research and Molecular Medicine and Center of Biotechnology, College of Science and Technology, Temple University, St. Philadelphia, PA, United States.",
+        "Department of Medical Biotechnology, University of Siena, Siena, Italy.",
+        "Department of Public Health, University Federico II of Naples, Naples, Italy.",
+        "Department of Public Health, University Federico II of Naples, Naples, Italy.",
+        "Department of Precision Medicine in Medical, Surgical and Critical Care (Me.Pre.C.C.), Section of Medical Oncology, University of Palermo, Palermo, Italy.",
+        "Lung Cancer Research Unit, Fondazione Istituto di Ricovero e Cura a Carattere Scientifico (IRCCS) Casa Sollievo della Sofferenza, San Giovanni Rotondo, FG, Italy.",
+        "Department of Medicine and Surgery, University of Enna \"Kore\", Enna, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bazan Russo, Tancredi Didier",
+        "short_name": "Bazan Russo TD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Precision Medicine in Medical, Surgical and Critical Care (Me.Pre.C.C.), Section of Medical Oncology, University of Palermo, Palermo, Italy.",
+          "Division of Medical Oncology, Department of Internal Medicine, The Ohio State University Comprehensive Cancer Center - Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, Columbus, OH, United States."
+        ]
+      },
+      {
+        "full_name": "Gristina, Valerio",
+        "short_name": "Gristina V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Precision Medicine in Medical, Surgical and Critical Care (Me.Pre.C.C.), Section of Medical Oncology, University of Palermo, Palermo, Italy."
+        ]
+      },
+      {
+        "full_name": "Delcuratolo, Marco Donatello",
+        "short_name": "Delcuratolo MD",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Oncology Unit, Fondazione Istituto di Ricovero e Cura a Carattere Scientifico (IRCCS) Casa Sollievo della Sofferenza, San Giovanni Rotondo, FG, Italy."
+        ]
+      },
+      {
+        "full_name": "Tamburi, Leonardo",
+        "short_name": "Tamburi L",
+        "identifiers": [],
+        "affiliations": [
+          "Catholic University of the Sacred Heart, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Delli Muti, Francesco",
+        "short_name": "Delli Muti F",
+        "identifiers": [],
+        "affiliations": [
+          "Lung Cancer Research Unit, Fondazione Istituto di Ricovero e Cura a Carattere Scientifico (IRCCS) Casa Sollievo della Sofferenza, San Giovanni Rotondo, FG, Italy."
+        ]
+      },
+      {
+        "full_name": "Mangiacotti, Filomena",
+        "short_name": "Mangiacotti F",
+        "identifiers": [],
+        "affiliations": [
+          "Lung Cancer Research Unit, Fondazione Istituto di Ricovero e Cura a Carattere Scientifico (IRCCS) Casa Sollievo della Sofferenza, San Giovanni Rotondo, FG, Italy."
+        ]
+      },
+      {
+        "full_name": "Mujacic, Clarissa",
+        "short_name": "Mujacic C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Precision Medicine in Medical, Surgical and Critical Care (Me.Pre.C.C.), Section of Medical Oncology, University of Palermo, Palermo, Italy."
+        ]
+      },
+      {
+        "full_name": "Fanale, Daniele",
+        "short_name": "Fanale D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Precision Medicine in Medical, Surgical and Critical Care (Me.Pre.C.C.), Section of Medical Oncology, University of Palermo, Palermo, Italy."
+        ]
+      },
+      {
+        "full_name": "Galvano, Antonio",
+        "short_name": "Galvano A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Precision Medicine in Medical, Surgical and Critical Care (Me.Pre.C.C.), Section of Medical Oncology, University of Palermo, Palermo, Italy."
+        ]
+      },
+      {
+        "full_name": "Gori, Stefania",
+        "short_name": "Gori S",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Oncology Unit, Istituto di Ricovero e Cura a Carattere Scientifico (IRCCS) Sacro Cuore Don Calabria Hospital, Negrar di Valpolicella, Verona, Italy."
+        ]
+      },
+      {
+        "full_name": "Incorvaia, Lorena",
+        "short_name": "Incorvaia L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Precision Medicine in Medical, Surgical and Critical Care (Me.Pre.C.C.), Section of Medical Oncology, University of Palermo, Palermo, Italy."
+        ]
+      },
+      {
+        "full_name": "Giordano, Antonio",
+        "short_name": "Giordano A",
+        "identifiers": [],
+        "affiliations": [
+          "Sbarro Institute for Cancer Research and Molecular Medicine and Center of Biotechnology, College of Science and Technology, Temple University, St. Philadelphia, PA, United States.",
+          "Department of Medical Biotechnology, University of Siena, Siena, Italy."
+        ]
+      },
+      {
+        "full_name": "Pepe, Francesco",
+        "short_name": "Pepe F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Public Health, University Federico II of Naples, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Malapelle, Umberto",
+        "short_name": "Malapelle U",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Public Health, University Federico II of Naples, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Russo, Antonio",
+        "short_name": "Russo A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Precision Medicine in Medical, Surgical and Critical Care (Me.Pre.C.C.), Section of Medical Oncology, University of Palermo, Palermo, Italy."
+        ]
+      },
+      {
+        "full_name": "Muscarella, Lucia Anna",
+        "short_name": "Muscarella LA",
+        "identifiers": [],
+        "affiliations": [
+          "Lung Cancer Research Unit, Fondazione Istituto di Ricovero e Cura a Carattere Scientifico (IRCCS) Casa Sollievo della Sofferenza, San Giovanni Rotondo, FG, Italy."
+        ]
+      },
+      {
+        "full_name": "Fabrizio, Federico Pio",
+        "short_name": "Fabrizio FP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine and Surgery, University of Enna \"Kore\", Enna, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in oncology"
+    ],
+    "journal_abbrev": [
+      "Front Oncol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/09/11 11:38",
+    "fetched_at": "2026-09-13 13:06:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42724581",
+      "39057032",
+      "40762271",
+      "42524278",
+      "42684344",
+      "41866828",
+      "42699009",
+      "42627151",
+      "36012272",
+      "42212495",
+      "42475469",
+      "42228832",
+      "41816481",
+      "38905450",
+      "42145022",
+      "39165498",
+      "29686738",
+      "41614220",
+      "41234819",
+      "40133038",
+      "42170273",
+      "41310905",
+      "41990988",
+      "33500194",
+      "27993161",
+      "42692176",
+      "41873241",
+      "34386036",
+      "42548867",
+      "27826533",
+      "34670587",
+      "39909829",
+      "40563675",
+      "41268839",
+      "40977920",
+      "36056434",
+      "42072359",
+      "42676643",
+      "31695765",
+      "42726150",
+      "41165038",
+      "30988170",
+      "42685313",
+      "40255184",
+      "36096847",
+      "42569893",
+      "38764160",
+      "36153611",
+      "41457134",
+      "37081990",
+      "40287220",
+      "37318381",
+      "36461127",
+      "34976309",
+      "42388617",
+      "40792229",
+      "39525954",
+      "36230805",
+      "32226301",
+      "36788585",
+      "33942482",
+      "40517231",
+      "39944482",
+      "42626456",
+      "39232927",
+      "29632864",
+      "31698791",
+      "38522508",
+      "29706556",
+      "42688382",
+      "40038442",
+      "38313016",
+      "39867387",
+      "42512406",
+      "40869308",
+      "41331845",
+      "42278600",
+      "41826520",
+      "31803237",
+      "28393575",
+      "42145083",
+      "37567793",
+      "38278149",
+      "40417566",
+      "42123533",
+      "36697374",
+      "38561976",
+      "40524349",
+      "42023873",
+      "32685257",
+      "41488623",
+      "41603032",
+      "40558116",
+      "42145016",
+      "35457259",
+      "41731447",
+      "37027928",
+      "34830770",
+      "30922396",
+      "42236991"
+    ],
+    "review": [
+      "42724581",
+      "39057032",
+      "40762271",
+      "41866828",
+      "42699009",
+      "36012272",
+      "42212495",
+      "42228832",
+      "41816481",
+      "42145022",
+      "41614220",
+      "41234819",
+      "42170273",
+      "41310905",
+      "41990988",
+      "33500194",
+      "42692176",
+      "34386036",
+      "42548867",
+      "27826533",
+      "41268839",
+      "42726150",
+      "40255184",
+      "36096847",
+      "38764160",
+      "36153611",
+      "41457134",
+      "37081990",
+      "40287220",
+      "37318381",
+      "34976309",
+      "42388617",
+      "40792229",
+      "39525954",
+      "36230805",
+      "32226301",
+      "36788585",
+      "33942482",
+      "40517231",
+      "39232927",
+      "29632864",
+      "31698791",
+      "38522508",
+      "29706556",
+      "40038442",
+      "38313016",
+      "42512406",
+      "40869308",
+      "42278600",
+      "31803237",
+      "28393575",
+      "42123533",
+      "36697374",
+      "40524349",
+      "42023873",
+      "32685257",
+      "41603032",
+      "40558116",
+      "35457259",
+      "34830770",
+      "30922396",
+      "42236991"
+    ],
+    "pmc": [
+      "13559918"
+    ],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}
