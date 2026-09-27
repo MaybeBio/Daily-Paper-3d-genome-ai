@@ -1,0 +1,32 @@
+{
+  "source": "arxiv",
+  "source_id": "2609.24907v1",
+  "title": "Nucleosome simulations suggest mechanisms of electrostatically-driven mesoscale chromatin evolution",
+  "doi": "",
+  "abstract": "Nucleosomes are structures made up of proteins called histones that bind and compact DNA, driving the mesoscale organization of the chromatin polymer. Although histone proteins have diversified over evolutionary time, their contributions to the corresponding diversification of chromatin structure are poorly understood. Here, we mine protein databases for histones and create \\emph{in silico} nucleosomes for 3241 organisms spanning $>$1.5B years of evolution. Using a combination of electrostatic calculations and coarse-grained molecular dynamics simulations, we reveal extensive biophysical diversification of the nucleosome unit. Finally, we perform coarse-grained oligonucleosomal simulations on a subset of evolutionarily and biophysically divergent nucleosomes, demonstrating dramatic differences in bulk phase behavior of chromatin. Taken together, our results suggest a paradigm in which histones may have evolved to facilitate particular types of mesoscale chromatin behavior.",
+  "authors": [
+    "Siddhartha G. Jena"
+  ],
+  "published_date": "2026-09-21T17:10:23Z",
+  "updated_date": "2026-09-21T17:10:23Z",
+  "journal": "",
+  "category": "cond-mat.soft, q-bio.BM",
+  "landing_url": "https://arxiv.org/abs/2609.24907v1",
+  "pdf_url": "https://arxiv.org/pdf/2609.24907v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"3D genome\" OR all:\"three-dimensional genome\" OR all:\"genome organization\" OR all:\"genome architecture\" OR all:\"genome folding\" OR all:\"nuclear organization\" OR all:\"nuclear architecture\" OR all:\"chromatin organization\" OR all:\"chromatin architecture\" OR all:\"chromatin conformation\" OR all:\"chromatin topology\" OR all:\"chromatin structure\" OR all:\"chromatin loop\" OR all:\"chromatin interaction\" OR all:\"chromatin domain\" OR all:\"topologically associating domain\" OR all:\"A/B compartment\" OR all:\"chromosome conformation capture\" OR all:\"Hi-C\" OR all:HiChIP OR all:\"loop extrusion\" OR all:\"loop-extrusion\" OR all:CTCF OR all:cohesin OR all:\"cis-regulatory\" OR all:\"cis-regulatory element\" OR all:\"regulatory element\" OR all:\"regulatory genomics\" OR all:\"chromatin accessibility\" OR all:\"enhancer-promoter\" OR all:\"promoter-enhancer\") AND (all:\"deep learning\" OR all:\"machine learning\" OR all:\"neural network\" OR all:\"graph neural network\" OR all:\"convolutional neural network\" OR all:transformer OR all:\"language model\" OR all:\"foundation model\" OR all:\"diffusion model\" OR all:generative OR all:\"flow matching\" OR all:alphafold OR all:esmfold OR all:rosetta OR all:\"molecular dynamics\" OR all:simulation OR all:docking)\n",
+  "version": "1",
+  "keywords": [
+    "cond-mat.soft",
+    "q-bio.BM"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2609.24907v1",
+    "raw_categories": [
+      "cond-mat.soft",
+      "q-bio.BM"
+    ],
+    "journal_ref": ""
+  }
+}
