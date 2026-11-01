@@ -1,0 +1,155 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.10.28.762639",
+  "title": "Few-shot regulatory sequence design with a genomic language model",
+  "doi": "10.64898/2026.10.28.762639",
+  "abstract": "A central challenge in generative biology is translating knowledge learned from natural sequences and experiments into designs with desired functions. In-context learning (ICL) is an emergent capability of large language models that allows them to adapt to new tasks from a few examples without additional training, enabling these models to become general-purpose learners. Here, we show that the genome language model, Evo 2, exhibits generative ICL in biological sequence design. Prompting with just tens of examples conditions Evo 2 to generate novel and diverse regulatory DNA sequences without any additional training. Mechanistic analysis suggests that genomic ICL may originate from induction, similar to phenomena observed in natural language. Reinforcement learning leveraging sequence-to-function models as experiment-derived rewards further strengthens ICL. We first validate this approach by generating enhancers that drive cell-type-specific gene expression in three human cell lines. Extending this approach in vivo, enhancers designed using human regulatory element data selectively label layer 5 extratelencephalic neurons in the mouse cortex with high specificity and stronger activity than existing enhancers. Our study provides evidence of emergent properties in genomic sequence models and introduces a promising approach for improving functional conditioning in generative biology.",
+  "authors": [
+    "Hie B",
+    "Hao YA",
+    "Liu M",
+    "Nori D",
+    "Brixi G",
+    "Lau T",
+    "Ramakrishnan CA",
+    "Chang D",
+    "Park R",
+    "Allen WE"
+  ],
+  "published_date": "2026-10-30",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762639",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762639.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"3D genome\" OR \"three-dimensional genome\" OR \"genome organization\" OR \"genome architecture\" OR \"genome folding\" OR \"nuclear organization\" OR \"nuclear architecture\" OR \"chromatin organization\" OR \"chromatin architecture\" OR \"chromatin conformation\" OR \"chromatin topology\" OR \"chromatin structure\" OR \"chromatin loop\" OR \"chromatin interaction\" OR \"chromatin domain\" OR \"topologically associating domain\" OR \"A/B compartment\" OR \"chromosome conformation capture\" OR \"Hi-C\" OR HiChIP OR \"loop extrusion\" OR \"loop-extrusion\" OR CTCF OR cohesin OR \"cis-regulatory\" OR \"cis-regulatory element\" OR \"regulatory element\" OR \"regulatory genomics\" OR \"chromatin accessibility\" OR \"enhancer-promoter\" OR \"promoter-enhancer\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR esmfold OR rosetta OR alphafold OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1354278",
+    "raw_record": {
+      "id": "PPR1354278",
+      "source": "PPR",
+      "doi": "10.64898/2026.10.28.762639",
+      "title": "Few-shot regulatory sequence design with a genomic language model",
+      "authorString": "Hie B, Hao YA, Liu M, Nori D, Brixi G, Lau T, Ramakrishnan CA, Chang D, Park R, Allen WE.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Hie B",
+            "lastName": "Hie",
+            "firstName": "Brian",
+            "initials": "B"
+          },
+          {
+            "fullName": "Hao YA",
+            "lastName": "Hao",
+            "firstName": "Yukun",
+            "initials": "YA"
+          },
+          {
+            "fullName": "Liu M",
+            "lastName": "Liu",
+            "firstName": "Matthew",
+            "initials": "M"
+          },
+          {
+            "fullName": "Nori D",
+            "lastName": "Nori",
+            "firstName": "Divya",
+            "initials": "D"
+          },
+          {
+            "fullName": "Brixi G",
+            "lastName": "Brixi",
+            "firstName": "Garyk",
+            "initials": "G"
+          },
+          {
+            "fullName": "Lau T",
+            "lastName": "Lau",
+            "firstName": "Thomas",
+            "initials": "T"
+          },
+          {
+            "fullName": "Ramakrishnan CA",
+            "lastName": "Ramakrishnan",
+            "firstName": "Charu",
+            "initials": "CA"
+          },
+          {
+            "fullName": "Chang D",
+            "lastName": "Chang",
+            "firstName": "Daniel",
+            "initials": "D"
+          },
+          {
+            "fullName": "Park R",
+            "lastName": "Park",
+            "firstName": "Ryan",
+            "initials": "R"
+          },
+          {
+            "fullName": "Allen WE",
+            "lastName": "Allen",
+            "firstName": "William",
+            "initials": "WE"
+          }
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "A central challenge in generative biology is translating knowledge learned from natural sequences and experiments into designs with desired functions. In-context learning (ICL) is an emergent capability of large language models that allows them to adapt to new tasks from a few examples without additional training, enabling these models to become general-purpose learners. Here, we show that the genome language model, Evo 2, exhibits generative ICL in biological sequence design. Prompting with just tens of examples conditions Evo 2 to generate novel and diverse regulatory DNA sequences without any additional training. Mechanistic analysis suggests that genomic ICL may originate from induction, similar to phenomena observed in natural language. Reinforcement learning leveraging sequence-to-function models as experiment-derived rewards further strengthens ICL. We first validate this approach by generating enhancers that drive cell-type-specific gene expression in three human cell lines. Extending this approach in vivo, enhancers designed using human regulatory element data selectively label layer 5 extratelencephalic neurons in the mouse cortex with high specificity and stronger activity than existing enhancers. Our study provides evidence of emergent properties in genomic sequence models and introduces a promising approach for improving functional conditioning in generative biology.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "B.L.H. acknowledges funding support for this project from the Silicon Valley Community Foundation, as well as broader research support from the Gates Foundation, the NIH Director&#146;s New Innovator Award, the Advanced Research Projects Agency for Health (ARPA-H), Arc Institute, Schmidt Sciences AI2050, Stanford Center for Digital Health, and Stanford Human-Centered Artificial Intelligence (HAI) Hoffman-Yee Research Grants. M.L. acknowledges funding support from the Stanford HAI Data Science Scholars program. G.B. acknowledges funding support from the National Science Foundation Graduate Research Fellowship Program. T.L. acknowledges funding support from the Stanford Knight-Hennessy Scholars program. D.C. acknowledges funding support from the Stanford Genomics Training program.",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.10.28.762639"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-10-31",
+      "firstPublicationDate": "2026-10-30",
+      "firstIndexDate": "2026-10-31",
+      "hasEvaluations": "N"
+    }
+  }
+}

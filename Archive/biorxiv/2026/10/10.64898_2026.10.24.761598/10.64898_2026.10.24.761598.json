@@ -1,0 +1,139 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.10.24.761598",
+  "title": "DAPE-PD: Diffusion adaptation of genomic foundation model enables tailored-generation of cis -regulatory DNA",
+  "doi": "10.64898/2026.10.24.761598",
+  "abstract": "Genomic foundation models (GFMs) have transformed our ability to learn the evolutionary language encoded in genomes, yet their potential for programmable regulatory DNA engineering remains underexplored. Regulatory function depends on combinatorial interactions among distributed sequence elements, motivating generation with bidirectional context. Here, we introduce DAPE-PD ( D iffusion A daptation of P retrained E vo for P romoter D esign), which adapts the autoregressive Evo model into a bidirectional masked diffusion model without foundation-scale retraining. DAPE-PD combines pretrained genomic representations with iterative unmasking to generate regulatory DNA sequences. Following genus-specific fine-tuning on genome-derived intergenic sequences, DAPE-PD generated sequences that retained genus-associated compositional features despite low similarity to the fine-tuning datasets. Experimental validation identified functional de novo promoters, while in silico prioritization recovered active designs from small experimental candidate sets across three non-model gut commensals. This framework connects genomic pretraining with diffusion-based generation, extending GFMs from sequence understanding toward functional cis -regulatory DNA engineering in living cells.",
+  "authors": [
+    "Echavarria Galindo M",
+    "Gong S",
+    "Zhan Y",
+    "Wang S",
+    "Kong L",
+    "Lai Y"
+  ],
+  "published_date": "2026-10-27",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.10.24.761598",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.24.761598.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"3D genome\" OR \"three-dimensional genome\" OR \"genome organization\" OR \"genome architecture\" OR \"genome folding\" OR \"nuclear organization\" OR \"nuclear architecture\" OR \"chromatin organization\" OR \"chromatin architecture\" OR \"chromatin conformation\" OR \"chromatin topology\" OR \"chromatin structure\" OR \"chromatin loop\" OR \"chromatin interaction\" OR \"chromatin domain\" OR \"topologically associating domain\" OR \"A/B compartment\" OR \"chromosome conformation capture\" OR \"Hi-C\" OR HiChIP OR \"loop extrusion\" OR \"loop-extrusion\" OR CTCF OR cohesin OR \"cis-regulatory\" OR \"cis-regulatory element\" OR \"regulatory element\" OR \"regulatory genomics\" OR \"chromatin accessibility\" OR \"enhancer-promoter\" OR \"promoter-enhancer\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR esmfold OR rosetta OR alphafold OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1351637",
+    "raw_record": {
+      "id": "PPR1351637",
+      "source": "PPR",
+      "doi": "10.64898/2026.10.24.761598",
+      "title": "DAPE-PD: Diffusion adaptation of genomic foundation model enables tailored-generation of  <i>cis</i>  -regulatory DNA",
+      "authorString": "Echavarria Galindo M, Gong S, Zhan Y, Wang S, Kong L, Lai Y.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Echavarria Galindo M",
+            "lastName": "Echavarria Galindo",
+            "firstName": "Martin",
+            "initials": "M"
+          },
+          {
+            "fullName": "Gong S",
+            "lastName": "Gong",
+            "firstName": "Shansan",
+            "initials": "S"
+          },
+          {
+            "fullName": "Zhan Y",
+            "lastName": "Zhan",
+            "firstName": "Yuewei",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Wang S",
+            "lastName": "Wang",
+            "firstName": "Shuchen",
+            "initials": "S"
+          },
+          {
+            "fullName": "Kong L",
+            "lastName": "Kong",
+            "firstName": "Lingpeng",
+            "initials": "L"
+          },
+          {
+            "fullName": "Lai Y",
+            "lastName": "Lai",
+            "firstName": "Yong",
+            "initials": "Y"
+          }
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Genomic foundation models (GFMs) have transformed our ability to learn the evolutionary language encoded in genomes, yet their potential for programmable regulatory DNA engineering remains underexplored. Regulatory function depends on combinatorial interactions among distributed sequence elements, motivating generation with bidirectional context. Here, we introduce DAPE-PD (  D iffusion  A daptation of  P retrained  E vo for  P romoter  D esign), which adapts the autoregressive Evo model into a bidirectional masked diffusion model without foundation-scale retraining. DAPE-PD combines pretrained genomic representations with iterative unmasking to generate regulatory DNA sequences. Following genus-specific fine-tuning on genome-derived intergenic sequences, DAPE-PD generated sequences that retained genus-associated compositional features despite low similarity to the fine-tuning datasets. Experimental validation identified functional de novo promoters, while in silico prioritization recovered active designs from small experimental candidate sets across three non-model gut commensals. This framework connects genomic pretraining with diffusion-based generation, extending GFMs from sequence understanding toward functional  cis -regulatory DNA engineering in living cells.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Research Grants Council of Hong Kong SAR",
+            "grantId": "#26100423",
+            "orderIn": 0
+          },
+          {
+            "agency": "HKUST",
+            "grantId": "R9829",
+            "orderIn": 0
+          },
+          {
+            "agency": "Hong Kong Ph.D. Fellowship Scheme",
+            "grantId": "PF22-69790",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.10.24.761598"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "N",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-10-28",
+      "firstPublicationDate": "2026-10-27",
+      "firstIndexDate": "2026-10-28",
+      "hasEvaluations": "N"
+    }
+  }
+}

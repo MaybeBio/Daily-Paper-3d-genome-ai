@@ -1,0 +1,236 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.10.26.761533",
+  "title": "Xenograft supervision and joint methylation-fragment-end encoding define a reusable molecular scoring layer for cell-free tumor DNA",
+  "doi": "10.64898/2026.10.26.761533",
+  "abstract": "Circulating tumor DNA is often scarce in plasma, and regional methylation summaries can obscure informative differences between individual molecules. Here we present ctDNA-BERT, a Transformer that scores individual bisulfite reads without predefined differentially methylated regions by jointly encoding CpG methylation state, nucleotide context and the fragment 3 ′ end. Xenografts provide molecule-level tumor supervision. The resulting frozen scorer supported tumor-fraction estimation in synthetic and patient-derived xenograft mixtures and enriched tumor-concordant methylation and chromatin-accessibility signals in independent hepatocellular carcinoma and stage III pan-cancer plasma without cohort-specific retraining. Features derived from selected reads discriminated stage I cancers from healthy controls in a retrospective cohort of 1,477 specimens, achieving an out-of-fold area under the receiver operating characteristic curve of 0.884. By separating molecular scoring from sample-level inference, ctDNABERT provides a reusable read-level scoring layer for cell-free DNA methylation analysis.",
+  "authors": [
+    "Zhang X",
+    "Sun X",
+    "Wang R",
+    "Zhao N",
+    "Liu F",
+    "Li X",
+    "Huang J",
+    "Sun J",
+    "Li H",
+    "Lou S",
+    "Wang H",
+    "Zhao H",
+    "Shu H",
+    "Zhen P",
+    "Gu H",
+    "Shi J",
+    "Wang T",
+    "Zhang F"
+  ],
+  "published_date": "2026-10-27",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.10.26.761533",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.26.761533.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"3D genome\" OR \"three-dimensional genome\" OR \"genome organization\" OR \"genome architecture\" OR \"genome folding\" OR \"nuclear organization\" OR \"nuclear architecture\" OR \"chromatin organization\" OR \"chromatin architecture\" OR \"chromatin conformation\" OR \"chromatin topology\" OR \"chromatin structure\" OR \"chromatin loop\" OR \"chromatin interaction\" OR \"chromatin domain\" OR \"topologically associating domain\" OR \"A/B compartment\" OR \"chromosome conformation capture\" OR \"Hi-C\" OR HiChIP OR \"loop extrusion\" OR \"loop-extrusion\" OR CTCF OR cohesin OR \"cis-regulatory\" OR \"cis-regulatory element\" OR \"regulatory element\" OR \"regulatory genomics\" OR \"chromatin accessibility\" OR \"enhancer-promoter\" OR \"promoter-enhancer\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR esmfold OR rosetta OR alphafold OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1351600",
+    "raw_record": {
+      "id": "PPR1351600",
+      "source": "PPR",
+      "doi": "10.64898/2026.10.26.761533",
+      "title": "Xenograft supervision and joint methylation-fragment-end encoding define a reusable molecular scoring layer for cell-free tumor DNA",
+      "authorString": "Zhang X, Sun X, Wang R, Zhao N, Liu F, Li X, Huang J, Sun J, Li H, Lou S, Wang H, Zhao H, Shu H, Zhen P, Gu H, Shi J, Wang T, Zhang F.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Zhang X",
+            "lastName": "Zhang",
+            "firstName": "Xuchao",
+            "initials": "X"
+          },
+          {
+            "fullName": "Sun X",
+            "lastName": "Sun",
+            "firstName": "Xiaojun",
+            "initials": "X"
+          },
+          {
+            "fullName": "Wang R",
+            "lastName": "Wang",
+            "firstName": "Rui",
+            "initials": "R"
+          },
+          {
+            "fullName": "Zhao N",
+            "lastName": "Zhao",
+            "firstName": "Ningning",
+            "initials": "N"
+          },
+          {
+            "fullName": "Liu F",
+            "lastName": "Liu",
+            "firstName": "Fang",
+            "initials": "F"
+          },
+          {
+            "fullName": "Li X",
+            "lastName": "Li",
+            "firstName": "Xuhua",
+            "initials": "X"
+          },
+          {
+            "fullName": "Huang J",
+            "lastName": "Huang",
+            "firstName": "Jian",
+            "initials": "J"
+          },
+          {
+            "fullName": "Sun J",
+            "lastName": "Sun",
+            "firstName": "Jiamin",
+            "initials": "J"
+          },
+          {
+            "fullName": "Li H",
+            "lastName": "Li",
+            "firstName": "Han",
+            "initials": "H"
+          },
+          {
+            "fullName": "Lou S",
+            "lastName": "Lou",
+            "firstName": "Shang",
+            "initials": "S"
+          },
+          {
+            "fullName": "Wang H",
+            "lastName": "Wang",
+            "firstName": "Haoyi",
+            "initials": "H"
+          },
+          {
+            "fullName": "Zhao H",
+            "lastName": "Zhao",
+            "firstName": "Hailong",
+            "initials": "H"
+          },
+          {
+            "fullName": "Shu H",
+            "lastName": "Shu",
+            "firstName": "Han",
+            "initials": "H"
+          },
+          {
+            "fullName": "Zhen P",
+            "lastName": "Zhen",
+            "firstName": "Peimeng",
+            "initials": "P"
+          },
+          {
+            "fullName": "Gu H",
+            "lastName": "Gu",
+            "firstName": "Hongcang",
+            "initials": "H"
+          },
+          {
+            "fullName": "Shi J",
+            "lastName": "Shi",
+            "firstName": "Jiantao",
+            "initials": "J"
+          },
+          {
+            "fullName": "Wang T",
+            "lastName": "Wang",
+            "firstName": "Tao",
+            "initials": "T"
+          },
+          {
+            "fullName": "Zhang F",
+            "lastName": "Zhang",
+            "firstName": "Fan",
+            "initials": "F"
+          }
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Circulating tumor DNA is often scarce in plasma, and regional methylation summaries can obscure informative differences between individual molecules. Here we present ctDNA-BERT, a Transformer that scores individual bisulfite reads without predefined differentially methylated regions by jointly encoding CpG methylation state, nucleotide context and the fragment 3  ′ end. Xenografts provide molecule-level tumor supervision. The resulting frozen scorer supported tumor-fraction estimation in synthetic and patient-derived xenograft mixtures and enriched tumor-concordant methylation and chromatin-accessibility signals in independent hepatocellular carcinoma and stage III pan-cancer plasma without cohort-specific retraining. Features derived from selected reads discriminated stage I cancers from healthy controls in a retrospective cohort of 1,477 specimens, achieving an out-of-fold area under the receiver operating characteristic curve of 0.884. By separating molecular scoring from sample-level inference, ctDNABERT provides a reusable read-level scoring layer for cell-free DNA methylation analysis.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "CASHIPS Seed Grant",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Natural Science Foundation of China",
+            "grantId": "32670885",
+            "orderIn": 0
+          },
+          {
+            "agency": "Noncommunicable Chronic Diseases-National Science and Technology Major Project",
+            "grantId": "2024ZD0520100",
+            "orderIn": 0
+          },
+          {
+            "agency": "Hundred Talents Program",
+            "orderIn": 0
+          },
+          {
+            "agency": "Anhui Provincial Natural Science Foundation",
+            "grantId": "2408085J017",
+            "orderIn": 0
+          },
+          {
+            "agency": "Key Science &amp; Technology Project of Anhui Province",
+            "grantId": "202523n10050006",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.10.26.761533"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-10-28",
+      "firstPublicationDate": "2026-10-27",
+      "firstIndexDate": "2026-10-28",
+      "hasEvaluations": "N"
+    }
+  }
+}
